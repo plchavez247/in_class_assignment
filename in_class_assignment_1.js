@@ -27,4 +27,15 @@ for (let i = 10; i >=1; i--) {
     
 }
 
+//Task 4 
+let num = 2;
+while (num <= 10) {
+    console.log(num);
+    num += 2;
+}
 
+function calculateSquare(num) {
+    return num * num
+}
+
+console.log(calculateSquare(4));
